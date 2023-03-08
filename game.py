@@ -18,7 +18,7 @@ def start(word):
     print(word_completion)
     print("\n")
     while not guessed and tries > 0:
-        guess = input("Please guess a letter or word: ").upper()
+        guess = input("Please enter a letter or word: ").upper()
         if len(guess) == 1 and guess.isalpha():
             if guess in guessed_letters:
                 print("You already guessed this letter", guess)
@@ -52,7 +52,7 @@ def start(word):
         print(word_completion)
         print("\n")
     if guessed:
-        print("Congrats, you guessed the word correctly!")
+        print("Congrats, you guessed the word correctly! " + word + " was the correct word!")
     else:
         print("Sorry, you ran out of tries. The word was " + word + ". Try again and hopefully you get it!")
 
