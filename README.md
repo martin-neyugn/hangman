@@ -1,3 +1,5 @@
 # Hangman
 
 This is a hangman game that can be played in the terminal for as long as the word list it. The game takes words from the word list at random and makes you guess a letter or word at a time. It's a direct copy of the actual "HANGMAN"! Hope you enjoy! (To clarify, I will most likely come back to upload more words to add to the word list as it's only over 100 as of now.)
+
+To play this game in your code editor, go to your terminal and type "python game.py" and from there it will start the game and give you the random word. From there you will enter a word or letter as your guess. If your guess is incorrect, the game will alert you and draw part of the figure as a penalty and if you guess correct, it will fill in the letter the whole word has or if you guess the whole word correct then it will say that you have got it correct. If you either fail to guess correctly or you guessed it correctly, the game prompts the user if they want to play again by pressing either "y" for yes and "n" for no. 
